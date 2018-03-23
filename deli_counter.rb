@@ -18,3 +18,4 @@ def take_a_number(line, customer)
   line.push(customer)
   puts "Welcome, #{customer}. You are number #{line.size} in line."
 end 
+de
