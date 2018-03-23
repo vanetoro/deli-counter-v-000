@@ -3,7 +3,7 @@ katz_deli = []
 
 
 def line(deli)
-  deli.empty?
+  if deli.empty?
     puts  "The line is currently empty."
   else
       # puts "The line is currently:"
