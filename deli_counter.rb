@@ -22,6 +22,7 @@ end
 def now_serving(line)
   if line.empty?
     puts "There is nobody waiting to be served!"
-serving = line.shift
-puts "#{serving}"
+  else
+  serving = line.shift
+  puts "#{serving}"
 end
