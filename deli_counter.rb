@@ -3,9 +3,10 @@ katz_deli = []
 
 
 def line(deli)
+  deli_line = []
   if deli.size > 0
-    puts "The line is currently: #{deli.join(' ')}"
-    
+    deli.each_with_index do |customer, place|
+    deli_line << "#{place}. #{customer}"
   else deli.empty?
     puts  "The line is currently empty."
   end
