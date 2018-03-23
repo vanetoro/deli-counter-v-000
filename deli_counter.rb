@@ -26,3 +26,4 @@ def now_serving(line)
   serving = line.shift
   puts "#{serving}"
 end
+end
