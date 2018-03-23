@@ -3,9 +3,9 @@ katz_deli = []
 
 
 def line(deli)
-  deli.empty?
-    puts  "The line is currently empty."
-  else
+  # deli.empty?
+  #   puts  "The line is currently empty."
+  # else
       # puts "The line is currently:"
       deli.each_with_index do |customer, index|
       puts "#{index + 1}. #{customer}"
