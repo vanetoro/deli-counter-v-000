@@ -18,4 +18,10 @@ def take_a_number(line, customer)
   line.push(customer)
   puts "Welcome, #{customer}. You are number #{line.size} in line."
 end 
-de
+
+def now_serving(line)
+  if line.empty?
+    puts "There is nobody waiting to be served!"
+serving = line.shift
+puts "#{serving}"
+end
