@@ -7,8 +7,8 @@ def line(deli)
     puts  "The line is currently empty."
   else
       # puts "The line is currently:"
-      deli.each do |customer|
-      puts "#{customer}"
+      deli.each_with_index do |customer|
+      puts "#{index}. #{customer}"
     end
   end
 end
