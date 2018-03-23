@@ -8,7 +8,7 @@ def line(deli)
   else
       # puts "The line is currently:"
       deli.each_with_index do |customer, index|
-      puts "#{index}. #{customer}"
+      puts "#{index + 2}. #{customer}"
     end
   end
 end
